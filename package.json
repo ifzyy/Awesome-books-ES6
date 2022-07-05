@@ -1,13 +1,13 @@
 {
   "name": "awesome-books-es6",
   "version": "1.0.0",
-  "description": "",
+  "description": "Awesome Books",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/ifzyy/Awesome-books-ES6.git"
   },
   "keywords": [],
