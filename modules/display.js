@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 import AwesomeBooks from './book.js';
 
 const display = () => {
