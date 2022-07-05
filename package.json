@@ -1,24 +1,5 @@
 {
-  "name": "awesome-books-es6",
-  "version": "1.0.0",
-  "description": "Awesome Books",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "type": "module"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ifzyy/Awesome-books-ES6.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ifzyy/Awesome-books-ES6/issues"
-  },
-  "homepage": "https://github.com/ifzyy/Awesome-books-ES6#readme",
   "devDependencies": {
-    "hint": "^6.2.0"
+    "hint": "^2.0.0"
   }
 }
