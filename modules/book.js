@@ -13,29 +13,29 @@ export default class AwesomeBooks {
     this.#save();
   }
 
-    #addBooks(books) {
+  #addBooks(books) {
     books.forEach((book) => {
       this.addBook(book.title, book.author);
     });
   }
 
-    getBooks() {
-      return this.books;
-    }
+  getBooks() {
+    return this.books;
+  }
 
-    #save() {
-      localStorage.setItem('books', JSON.stringify(this.books));
-    }
+  #save() {
+    localStorage.setItem("books", JSON.stringify(this.books));
+  }
 
-    load() {
-      const books = JSON.parse(localStorage.getItem('books'));
-      if (books) {
-        this.#addBooks(books);
-      }
+  load() {
+    const books = JSON.parse(localStorage.getItem("books"));
+    if (books) {
+      this.#addBooks(books);
     }
+  }
 
-    deleteBook(id) {
-      this.books = this.books.filter((book) => book.id !== id);
-      this.#save();
-    }
+  deleteBook(id) {
+    this.books = this.books.filter((book) => book.id !== id);
+    this.#save();
+  }
 }
